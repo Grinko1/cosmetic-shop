@@ -114,6 +114,7 @@ const Favorited = () => {
   const favorite = useSelector((state) => state.favorite);
 
   const dispatch = useDispatch();
+  console.log(favorite);
 
 
   useEffect(() => {
